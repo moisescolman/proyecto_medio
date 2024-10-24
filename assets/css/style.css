@@ -25,7 +25,18 @@ nav {
 .carrusel {
     min-height: 25rem;
     background-color: pink;
-}   
+    background-image: url("../../img_sitio/maqueta.jpg");
+    background-size: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carrusel h1 {
+    color: azure;
+    font-size: 2.4rem;
+    /* padding-top: 3.5rem; */
+
+}
 .content {
     min-height: 40rem;
     background-color: brown;
